@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2BA59111BE441AB0039078B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BA59101BE441AB0039078B /* main.m */; };
+		A2BA59141BE441AB0039078B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BA59131BE441AB0039078B /* AppDelegate.m */; };
+		A2BA59171BE441AB0039078B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BA59161BE441AB0039078B /* ViewController.m */; };
+		A2BA591A1BE441AC0039078B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BA59181BE441AC0039078B /* Main.storyboard */; };
+		A2BA591C1BE441AC0039078B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BA591B1BE441AC0039078B /* Assets.xcassets */; };
+		A2BA591F1BE441AC0039078B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BA591D1BE441AC0039078B /* LaunchScreen.storyboard */; };
+		A2BA592A1BE441AC0039078B /* CreativeCloudUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BA59291BE441AC0039078B /* CreativeCloudUploaderTests.m */; };
+		A2BA59351BE441AC0039078B /* CreativeCloudUploaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BA59341BE441AC0039078B /* CreativeCloudUploaderUITests.m */; };
+		A2BA59431BE4452D0039078B /* AdobeCreativeSDKCoreResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A2BA59421BE4452D0039078B /* AdobeCreativeSDKCoreResources.bundle */; };
+		A2BA59451BE4455C0039078B /* AdobeCreativeSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BA59441BE4455C0039078B /* AdobeCreativeSDKCore.framework */; };
+		A2BA59471BE445C40039078B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BA59461BE445C40039078B /* MobileCoreServices.framework */; };
+		A2BA59491BE445CF0039078B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BA59481BE445CF0039078B /* SystemConfiguration.framework */; };
+		A2BA594B1BE446120039078B /* AdobeCreativeSDKAssetModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BA594A1BE446120039078B /* AdobeCreativeSDKAssetModel.framework */; };
+		A2BA594D1BE47E890039078B /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BA594C1BE47E890039078B /* libz.1.dylib */; };
+		A2BA594F1BE47EDF0039078B /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BA594E1BE47EDF0039078B /* libc++.1.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2BA59261BE441AC0039078B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2BA59041BE441AA0039078B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2BA590B1BE441AB0039078B;
+			remoteInfo = CreativeCloudUploader;
+		};
+		A2BA59311BE441AC0039078B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2BA59041BE441AA0039078B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2BA590B1BE441AB0039078B;
+			remoteInfo = CreativeCloudUploader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2BA590C1BE441AB0039078B /* CreativeCloudUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreativeCloudUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BA59101BE441AB0039078B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2BA59121BE441AB0039078B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2BA59131BE441AB0039078B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2BA59151BE441AB0039078B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2BA59161BE441AB0039078B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2BA59191BE441AC0039078B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2BA591B1BE441AC0039078B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2BA591E1BE441AC0039078B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2BA59201BE441AC0039078B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2BA59251BE441AC0039078B /* CreativeCloudUploaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreativeCloudUploaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BA59291BE441AC0039078B /* CreativeCloudUploaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreativeCloudUploaderTests.m; sourceTree = "<group>"; };
+		A2BA592B1BE441AC0039078B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2BA59301BE441AC0039078B /* CreativeCloudUploaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreativeCloudUploaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BA59341BE441AC0039078B /* CreativeCloudUploaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreativeCloudUploaderUITests.m; sourceTree = "<group>"; };
+		A2BA59361BE441AC0039078B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2BA59421BE4452D0039078B /* AdobeCreativeSDKCoreResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AdobeCreativeSDKCoreResources.bundle; path = AdobeCreativeSDKFrameworks/AdobeCreativeSDKCore.framework/Versions/A/Resources/AdobeCreativeSDKCoreResources.bundle; sourceTree = "<group>"; };
+		A2BA59441BE4455C0039078B /* AdobeCreativeSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdobeCreativeSDKCore.framework; path = AdobeCreativeSDKFrameworks/AdobeCreativeSDKCore.framework; sourceTree = "<group>"; };
+		A2BA59461BE445C40039078B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A2BA59481BE445CF0039078B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A2BA594A1BE446120039078B /* AdobeCreativeSDKAssetModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdobeCreativeSDKAssetModel.framework; path = AdobeCreativeSDKFrameworks/AdobeCreativeSDKAssetModel.framework; sourceTree = "<group>"; };
+		A2BA594C1BE47E890039078B /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		A2BA594E1BE47EDF0039078B /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2BA59091BE441AB0039078B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BA594F1BE47EDF0039078B /* libc++.1.dylib in Frameworks */,
+				A2BA594D1BE47E890039078B /* libz.1.dylib in Frameworks */,
+				A2BA594B1BE446120039078B /* AdobeCreativeSDKAssetModel.framework in Frameworks */,
+				A2BA59491BE445CF0039078B /* SystemConfiguration.framework in Frameworks */,
+				A2BA59471BE445C40039078B /* MobileCoreServices.framework in Frameworks */,
+				A2BA59451BE4455C0039078B /* AdobeCreativeSDKCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BA59221BE441AC0039078B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BA592D1BE441AC0039078B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2BA59031BE441AA0039078B = {
+			isa = PBXGroup;
+			children = (
+				A2BA594E1BE47EDF0039078B /* libc++.1.dylib */,
+				A2BA594C1BE47E890039078B /* libz.1.dylib */,
+				A2BA594A1BE446120039078B /* AdobeCreativeSDKAssetModel.framework */,
+				A2BA59481BE445CF0039078B /* SystemConfiguration.framework */,
+				A2BA59461BE445C40039078B /* MobileCoreServices.framework */,
+				A2BA59441BE4455C0039078B /* AdobeCreativeSDKCore.framework */,
+				A2BA59421BE4452D0039078B /* AdobeCreativeSDKCoreResources.bundle */,
+				A2BA590E1BE441AB0039078B /* CreativeCloudUploader */,
+				A2BA59281BE441AC0039078B /* CreativeCloudUploaderTests */,
+				A2BA59331BE441AC0039078B /* CreativeCloudUploaderUITests */,
+				A2BA590D1BE441AB0039078B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2BA590D1BE441AB0039078B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2BA590C1BE441AB0039078B /* CreativeCloudUploader.app */,
+				A2BA59251BE441AC0039078B /* CreativeCloudUploaderTests.xctest */,
+				A2BA59301BE441AC0039078B /* CreativeCloudUploaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2BA590E1BE441AB0039078B /* CreativeCloudUploader */ = {
+			isa = PBXGroup;
+			children = (
+				A2BA59121BE441AB0039078B /* AppDelegate.h */,
+				A2BA59131BE441AB0039078B /* AppDelegate.m */,
+				A2BA59151BE441AB0039078B /* ViewController.h */,
+				A2BA59161BE441AB0039078B /* ViewController.m */,
+				A2BA59181BE441AC0039078B /* Main.storyboard */,
+				A2BA591B1BE441AC0039078B /* Assets.xcassets */,
+				A2BA591D1BE441AC0039078B /* LaunchScreen.storyboard */,
+				A2BA59201BE441AC0039078B /* Info.plist */,
+				A2BA590F1BE441AB0039078B /* Supporting Files */,
+			);
+			path = CreativeCloudUploader;
+			sourceTree = "<group>";
+		};
+		A2BA590F1BE441AB0039078B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2BA59101BE441AB0039078B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2BA59281BE441AC0039078B /* CreativeCloudUploaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2BA59291BE441AC0039078B /* CreativeCloudUploaderTests.m */,
+				A2BA592B1BE441AC0039078B /* Info.plist */,
+			);
+			path = CreativeCloudUploaderTests;
+			sourceTree = "<group>";
+		};
+		A2BA59331BE441AC0039078B /* CreativeCloudUploaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2BA59341BE441AC0039078B /* CreativeCloudUploaderUITests.m */,
+				A2BA59361BE441AC0039078B /* Info.plist */,
+			);
+			path = CreativeCloudUploaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2BA590B1BE441AB0039078B /* CreativeCloudUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2BA59391BE441AD0039078B /* Build configuration list for PBXNativeTarget "CreativeCloudUploader" */;
+			buildPhases = (
+				A2BA59081BE441AB0039078B /* Sources */,
+				A2BA59091BE441AB0039078B /* Frameworks */,
+				A2BA590A1BE441AB0039078B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreativeCloudUploader;
+			productName = CreativeCloudUploader;
+			productReference = A2BA590C1BE441AB0039078B /* CreativeCloudUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2BA59241BE441AC0039078B /* CreativeCloudUploaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2BA593C1BE441AD0039078B /* Build configuration list for PBXNativeTarget "CreativeCloudUploaderTests" */;
+			buildPhases = (
+				A2BA59211BE441AC0039078B /* Sources */,
+				A2BA59221BE441AC0039078B /* Frameworks */,
+				A2BA59231BE441AC0039078B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2BA59271BE441AC0039078B /* PBXTargetDependency */,
+			);
+			name = CreativeCloudUploaderTests;
+			productName = CreativeCloudUploaderTests;
+			productReference = A2BA59251BE441AC0039078B /* CreativeCloudUploaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2BA592F1BE441AC0039078B /* CreativeCloudUploaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2BA593F1BE441AD0039078B /* Build configuration list for PBXNativeTarget "CreativeCloudUploaderUITests" */;
+			buildPhases = (
+				A2BA592C1BE441AC0039078B /* Sources */,
+				A2BA592D1BE441AC0039078B /* Frameworks */,
+				A2BA592E1BE441AC0039078B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2BA59321BE441AC0039078B /* PBXTargetDependency */,
+			);
+			name = CreativeCloudUploaderUITests;
+			productName = CreativeCloudUploaderUITests;
+			productReference = A2BA59301BE441AC0039078B /* CreativeCloudUploaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2BA59041BE441AA0039078B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Nicole Lehrer";
+				TargetAttributes = {
+					A2BA590B1BE441AB0039078B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A2BA59241BE441AC0039078B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A2BA590B1BE441AB0039078B;
+					};
+					A2BA592F1BE441AC0039078B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A2BA590B1BE441AB0039078B;
+					};
+				};
+			};
+			buildConfigurationList = A2BA59071BE441AA0039078B /* Build configuration list for PBXProject "CreativeCloudUploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2BA59031BE441AA0039078B;
+			productRefGroup = A2BA590D1BE441AB0039078B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2BA590B1BE441AB0039078B /* CreativeCloudUploader */,
+				A2BA59241BE441AC0039078B /* CreativeCloudUploaderTests */,
+				A2BA592F1BE441AC0039078B /* CreativeCloudUploaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2BA590A1BE441AB0039078B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BA59431BE4452D0039078B /* AdobeCreativeSDKCoreResources.bundle in Resources */,
+				A2BA591F1BE441AC0039078B /* LaunchScreen.storyboard in Resources */,
+				A2BA591C1BE441AC0039078B /* Assets.xcassets in Resources */,
+				A2BA591A1BE441AC0039078B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BA59231BE441AC0039078B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BA592E1BE441AC0039078B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2BA59081BE441AB0039078B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BA59171BE441AB0039078B /* ViewController.m in Sources */,
+				A2BA59141BE441AB0039078B /* AppDelegate.m in Sources */,
+				A2BA59111BE441AB0039078B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BA59211BE441AC0039078B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BA592A1BE441AC0039078B /* CreativeCloudUploaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BA592C1BE441AC0039078B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BA59351BE441AC0039078B /* CreativeCloudUploaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2BA59271BE441AC0039078B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2BA590B1BE441AB0039078B /* CreativeCloudUploader */;
+			targetProxy = A2BA59261BE441AC0039078B /* PBXContainerItemProxy */;
+		};
+		A2BA59321BE441AC0039078B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2BA590B1BE441AB0039078B /* CreativeCloudUploader */;
+			targetProxy = A2BA59311BE441AC0039078B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2BA59181BE441AC0039078B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2BA59191BE441AC0039078B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2BA591D1BE441AC0039078B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2BA591E1BE441AC0039078B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2BA59371BE441AC0039078B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2BA59381BE441AC0039078B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2BA593A1BE441AD0039078B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdobeCreativeSDKFrameworks",
+				);
+				INFOPLIST_FILE = CreativeCloudUploader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Obj";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlehrer.CreativeCloudUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2BA593B1BE441AD0039078B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdobeCreativeSDKFrameworks",
+				);
+				INFOPLIST_FILE = CreativeCloudUploader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Obj";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlehrer.CreativeCloudUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2BA593D1BE441AD0039078B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CreativeCloudUploaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlehrer.CreativeCloudUploaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreativeCloudUploader.app/CreativeCloudUploader";
+			};
+			name = Debug;
+		};
+		A2BA593E1BE441AD0039078B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CreativeCloudUploaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlehrer.CreativeCloudUploaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreativeCloudUploader.app/CreativeCloudUploader";
+			};
+			name = Release;
+		};
+		A2BA59401BE441AD0039078B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CreativeCloudUploaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlehrer.CreativeCloudUploaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CreativeCloudUploader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A2BA59411BE441AD0039078B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CreativeCloudUploaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlehrer.CreativeCloudUploaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CreativeCloudUploader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2BA59071BE441AA0039078B /* Build configuration list for PBXProject "CreativeCloudUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BA59371BE441AC0039078B /* Debug */,
+				A2BA59381BE441AC0039078B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2BA59391BE441AD0039078B /* Build configuration list for PBXNativeTarget "CreativeCloudUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BA593A1BE441AD0039078B /* Debug */,
+				A2BA593B1BE441AD0039078B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2BA593C1BE441AD0039078B /* Build configuration list for PBXNativeTarget "CreativeCloudUploaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BA593D1BE441AD0039078B /* Debug */,
+				A2BA593E1BE441AD0039078B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2BA593F1BE441AD0039078B /* Build configuration list for PBXNativeTarget "CreativeCloudUploaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BA59401BE441AD0039078B /* Debug */,
+				A2BA59411BE441AD0039078B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2BA59041BE441AA0039078B /* Project object */;
+}
